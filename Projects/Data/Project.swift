@@ -9,8 +9,8 @@ let project = Project(
             product: .framework,
             bundleId: "com.Tuist-Test.Data",
             infoPlist: .default,
-            sources: [],
-            resources: ["Sources/**"],
+            sources: ["Sources/**"],
+            resources: [],
             dependencies: [
 
             ]

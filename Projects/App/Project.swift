@@ -10,10 +10,11 @@ let project = Project(
             bundleId: "com.Tuist-Test",
             infoPlist: .default,
             sources: ["Sources/**"],
-            resources: ["Resources/**"],
+            resources: [],
             dependencies: [
                 .project(target: "Presentation", path: "../Presentation"),
-                .project(target: "Data", path: "../Data")
+                .project(target: "Data", path: "../Data"),
+                .project(target: "Login", path: "../Login")
             ]
         )
     ],
